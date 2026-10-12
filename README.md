@@ -14,13 +14,11 @@ network-traffic-anomaly-detection/
 │   └── processed/
 │
 ├── notebooks/
-│   ├── 01_data_understanding.ipynb
-│   ├── 02_exploratory_analysis.ipynb
-│   ├── 03_statistical_analysis.ipynb
-│   ├── 04_feature_engineering.ipynb
-│   ├── 05_model_training.ipynb
-│   └── 06_model_evaluation.ipynb
-│
+│   ├── 01_data_understanding_eda.ipynb
+│   ├── 02_statistical_analysis.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_model_evalution.ipynb
+│   
 ├── src/
 │   ├── data_preprocessing.py
 │   ├── feature_engineering.py
