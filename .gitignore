@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets (not used yet, but a good habit)
+.streamlit/secrets.toml
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
