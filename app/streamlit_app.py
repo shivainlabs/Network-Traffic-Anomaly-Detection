@@ -59,7 +59,7 @@ def tab_overview():
     with left:
         counts = df["label"].value_counts().sort_index()
         fig, ax = plt.subplots(figsize=(4, 3))
-        ax.bar(["Normal", "Malicious"], counts.values, color=["steelblue", "indianred"])
+        ax.bar(["Normal", "Malicious"], counts.values, color=["steelblue", "indianred"]) #type: ignore
         ax.set_ylabel("Records")
         ax.set_title("Class balance")
         st.pyplot(fig)
