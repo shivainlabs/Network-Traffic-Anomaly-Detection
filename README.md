@@ -4,7 +4,7 @@ A hands-on **machine learning learning project**: can a model tell malicious net
 
 > **This is an educational project, not a security tool.** The models perform close to random on this dataset, and the project is built around understanding *why*, not hiding it.
 
-**Live demo:** https://network-traffic-anomaly.streamlit.app *(update this link to match your deployed app URL)*
+**Live demo:** https://network-traffic-anomaly.streamlit.app
 
 ---
 
@@ -106,9 +106,6 @@ Run the command from the repository root. To regenerate the files in `artifacts/
 - [x] Phase 3 - Model training
 - [x] Phase 4 - Diagnostic experiments and honest evaluation
 - [x] Phase 5 - Streamlit demo
-- [ ] Repeated random train/test splits to resolve the test-vs-cross-validation gap
-- [ ] "Demo prediction" tab using a saved model
-- [ ] Small fixes in notebook 03 (local data path, `scale_pos_weight` from training labels only, minority-class metrics)
 
 ## Acknowledgements
 
