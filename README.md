@@ -110,7 +110,7 @@ Run the command from the repository root. To regenerate the files in `artifacts/
 
 ## Acknowledgements
 
-- **Dataset:** [Network Traffic Anomaly Detection Dataset](https://www.kaggle.com/datasets/ziya07/network-traffic-anomaly-detection-dataset), created and shared on Kaggle by [ziya07](https://www.kaggle.com/ziya07). Thank you for making it available. The dataset belongs to its author; please check its Kaggle page for the license and terms of use before reusing it.
+- **Dataset:** [Network Traffic Anomaly Detection Dataset](https://www.kaggle.com/datasets/ziya07/network-traffic-anomaly-detection-dataset), created and shared on Kaggle by [ziya07](https://www.kaggle.com/ziya07). Thank you for making it available. The dataset belongs to its author.
 - This repository contains my own analysis, notebooks, and demo app, and is not affiliated with or endorsed by the dataset author.
 
 ## Tech stack
