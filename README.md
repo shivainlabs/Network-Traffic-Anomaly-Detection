@@ -72,14 +72,15 @@ The [Network Traffic Anomaly Detection Dataset](https://www.kaggle.com/datasets/
 
 ## Streamlit app
 
-Four tabs, all read-only:
+Five tabs, all read-only, written in plain language for beginners with interactive Plotly charts:
 
-1. **Dataset:** class balance and per-feature distributions by class.
-2. **Model comparison:** cross-validated ROC-AUC and Average Precision with random baselines.
-3. **Threshold explorer:** move the decision threshold and watch the confusion matrix, recall, precision, and ROC curve change.
-4. **Feature signal:** per-feature AUC against the "luck" threshold.
+1. **Start here:** what the project is about, what was done, and what happened.
+2. **The data:** class balance and per-feature distributions by class.
+3. **The models:** the models explained in plain English, with cross-validated ROC-AUC and Average Precision against random baselines.
+4. **Try the cut-off:** move the decision threshold and watch the confusion matrix, recall, precision, and ROC curve change.
+5. **Which measurements matter?:** per-feature AUC against the "luck" threshold.
 
-The app never trains a model; it only displays results saved by notebook 04.
+A sidebar glossary explains the terms used. The app never trains a model; it only displays results saved by notebook 04.
 
 ## Run locally
 
@@ -114,4 +115,4 @@ Run the command from the repository root. To regenerate the files in `artifacts/
 
 ## Tech stack
 
-Python, pandas, NumPy, scikit-learn, XGBoost, Matplotlib, Streamlit.
+Python, pandas, NumPy, scikit-learn, XGBoost, Matplotlib, Plotly, Streamlit.
